@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		357555342804E2AE00D7EC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357555332804E2AE00D7EC7A /* AppDelegate.swift */; };
+		357555362804E2AE00D7EC7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357555352804E2AE00D7EC7A /* SceneDelegate.swift */; };
+		357555382804E2AE00D7EC7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357555372804E2AE00D7EC7A /* ViewController.swift */; };
+		3575553B2804E2AE00D7EC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357555392804E2AE00D7EC7A /* Main.storyboard */; };
+		3575553D2804E2AE00D7EC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3575553C2804E2AE00D7EC7A /* Assets.xcassets */; };
+		357555402804E2AE00D7EC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3575553E2804E2AE00D7EC7A /* LaunchScreen.storyboard */; };
+		3575554B2804E2AE00D7EC7A /* MalariaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3575554A2804E2AE00D7EC7A /* MalariaAppTests.swift */; };
+		357555562804E2AE00D7EC7A /* MalariaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357555552804E2AE00D7EC7A /* MalariaAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		357555472804E2AE00D7EC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 357555282804E2AE00D7EC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3575552F2804E2AE00D7EC7A;
+			remoteInfo = MalariaApp;
+		};
+		357555522804E2AE00D7EC7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 357555282804E2AE00D7EC7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3575552F2804E2AE00D7EC7A;
+			remoteInfo = MalariaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		357555302804E2AE00D7EC7A /* MalariaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MalariaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		357555332804E2AE00D7EC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		357555352804E2AE00D7EC7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		357555372804E2AE00D7EC7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3575553A2804E2AE00D7EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3575553C2804E2AE00D7EC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3575553F2804E2AE00D7EC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		357555412804E2AE00D7EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357555462804E2AE00D7EC7A /* MalariaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalariaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3575554A2804E2AE00D7EC7A /* MalariaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaAppTests.swift; sourceTree = "<group>"; };
+		3575554C2804E2AE00D7EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357555512804E2AE00D7EC7A /* MalariaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MalariaAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		357555552804E2AE00D7EC7A /* MalariaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalariaAppUITests.swift; sourceTree = "<group>"; };
+		357555572804E2AE00D7EC7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3575552D2804E2AE00D7EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357555432804E2AE00D7EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3575554E2804E2AE00D7EC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		357555272804E2AE00D7EC7A = {
+			isa = PBXGroup;
+			children = (
+				357555322804E2AE00D7EC7A /* MalariaApp */,
+				357555492804E2AE00D7EC7A /* MalariaAppTests */,
+				357555542804E2AE00D7EC7A /* MalariaAppUITests */,
+				357555312804E2AE00D7EC7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		357555312804E2AE00D7EC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				357555302804E2AE00D7EC7A /* MalariaApp.app */,
+				357555462804E2AE00D7EC7A /* MalariaAppTests.xctest */,
+				357555512804E2AE00D7EC7A /* MalariaAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		357555322804E2AE00D7EC7A /* MalariaApp */ = {
+			isa = PBXGroup;
+			children = (
+				357555332804E2AE00D7EC7A /* AppDelegate.swift */,
+				357555352804E2AE00D7EC7A /* SceneDelegate.swift */,
+				357555372804E2AE00D7EC7A /* ViewController.swift */,
+				357555392804E2AE00D7EC7A /* Main.storyboard */,
+				3575553C2804E2AE00D7EC7A /* Assets.xcassets */,
+				3575553E2804E2AE00D7EC7A /* LaunchScreen.storyboard */,
+				357555412804E2AE00D7EC7A /* Info.plist */,
+			);
+			path = MalariaApp;
+			sourceTree = "<group>";
+		};
+		357555492804E2AE00D7EC7A /* MalariaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3575554A2804E2AE00D7EC7A /* MalariaAppTests.swift */,
+				3575554C2804E2AE00D7EC7A /* Info.plist */,
+			);
+			path = MalariaAppTests;
+			sourceTree = "<group>";
+		};
+		357555542804E2AE00D7EC7A /* MalariaAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				357555552804E2AE00D7EC7A /* MalariaAppUITests.swift */,
+				357555572804E2AE00D7EC7A /* Info.plist */,
+			);
+			path = MalariaAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3575552F2804E2AE00D7EC7A /* MalariaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3575555A2804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaApp" */;
+			buildPhases = (
+				3575552C2804E2AE00D7EC7A /* Sources */,
+				3575552D2804E2AE00D7EC7A /* Frameworks */,
+				3575552E2804E2AE00D7EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MalariaApp;
+			productName = MalariaApp;
+			productReference = 357555302804E2AE00D7EC7A /* MalariaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		357555452804E2AE00D7EC7A /* MalariaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3575555D2804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaAppTests" */;
+			buildPhases = (
+				357555422804E2AE00D7EC7A /* Sources */,
+				357555432804E2AE00D7EC7A /* Frameworks */,
+				357555442804E2AE00D7EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357555482804E2AE00D7EC7A /* PBXTargetDependency */,
+			);
+			name = MalariaAppTests;
+			productName = MalariaAppTests;
+			productReference = 357555462804E2AE00D7EC7A /* MalariaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		357555502804E2AE00D7EC7A /* MalariaAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 357555602804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaAppUITests" */;
+			buildPhases = (
+				3575554D2804E2AE00D7EC7A /* Sources */,
+				3575554E2804E2AE00D7EC7A /* Frameworks */,
+				3575554F2804E2AE00D7EC7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357555532804E2AE00D7EC7A /* PBXTargetDependency */,
+			);
+			name = MalariaAppUITests;
+			productName = MalariaAppUITests;
+			productReference = 357555512804E2AE00D7EC7A /* MalariaAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		357555282804E2AE00D7EC7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3575552F2804E2AE00D7EC7A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					357555452804E2AE00D7EC7A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3575552F2804E2AE00D7EC7A;
+					};
+					357555502804E2AE00D7EC7A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3575552F2804E2AE00D7EC7A;
+					};
+				};
+			};
+			buildConfigurationList = 3575552B2804E2AE00D7EC7A /* Build configuration list for PBXProject "MalariaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 357555272804E2AE00D7EC7A;
+			productRefGroup = 357555312804E2AE00D7EC7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3575552F2804E2AE00D7EC7A /* MalariaApp */,
+				357555452804E2AE00D7EC7A /* MalariaAppTests */,
+				357555502804E2AE00D7EC7A /* MalariaAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3575552E2804E2AE00D7EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357555402804E2AE00D7EC7A /* LaunchScreen.storyboard in Resources */,
+				3575553D2804E2AE00D7EC7A /* Assets.xcassets in Resources */,
+				3575553B2804E2AE00D7EC7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357555442804E2AE00D7EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3575554F2804E2AE00D7EC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3575552C2804E2AE00D7EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357555382804E2AE00D7EC7A /* ViewController.swift in Sources */,
+				357555342804E2AE00D7EC7A /* AppDelegate.swift in Sources */,
+				357555362804E2AE00D7EC7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		357555422804E2AE00D7EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3575554B2804E2AE00D7EC7A /* MalariaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3575554D2804E2AE00D7EC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357555562804E2AE00D7EC7A /* MalariaAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357555482804E2AE00D7EC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3575552F2804E2AE00D7EC7A /* MalariaApp */;
+			targetProxy = 357555472804E2AE00D7EC7A /* PBXContainerItemProxy */;
+		};
+		357555532804E2AE00D7EC7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3575552F2804E2AE00D7EC7A /* MalariaApp */;
+			targetProxy = 357555522804E2AE00D7EC7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		357555392804E2AE00D7EC7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3575553A2804E2AE00D7EC7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3575553E2804E2AE00D7EC7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3575553F2804E2AE00D7EC7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		357555582804E2AE00D7EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		357555592804E2AE00D7EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3575555B2804E2AE00D7EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3575555C2804E2AE00D7EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3575555E2804E2AE00D7EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MalariaApp.app/MalariaApp";
+			};
+			name = Debug;
+		};
+		3575555F2804E2AE00D7EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MalariaApp.app/MalariaApp";
+			};
+			name = Release;
+		};
+		357555612804E2AE00D7EC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MalariaApp;
+			};
+			name = Debug;
+		};
+		357555622804E2AE00D7EC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MalariaAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srihita.MalariaAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MalariaApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3575552B2804E2AE00D7EC7A /* Build configuration list for PBXProject "MalariaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357555582804E2AE00D7EC7A /* Debug */,
+				357555592804E2AE00D7EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3575555A2804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3575555B2804E2AE00D7EC7A /* Debug */,
+				3575555C2804E2AE00D7EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3575555D2804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3575555E2804E2AE00D7EC7A /* Debug */,
+				3575555F2804E2AE00D7EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		357555602804E2AE00D7EC7A /* Build configuration list for PBXNativeTarget "MalariaAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				357555612804E2AE00D7EC7A /* Debug */,
+				357555622804E2AE00D7EC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 357555282804E2AE00D7EC7A /* Project object */;
+}
