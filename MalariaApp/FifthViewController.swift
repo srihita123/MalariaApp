@@ -1,9 +1,15 @@
-///* 1. Import Libraries */
+//
+//  FifthViewController.swift
+//  MalariaApp
+//
+//  Created by Srihita on 4/16/22.
+//
+
 import UIKit
 import CoreML
 import Vision
 
-class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class FifthViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     /* 2. Declare variables for our views */
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UILabel!
@@ -53,7 +59,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
 
     /* 3. Show image picker when the camera button is pressed */
-    @IBAction func cameraTapped(_ sender: UIBarButtonItem) {
+    @IBAction func cameraTapped(_ sender: UIButton) {
         present(imagePicker, animated: true, completion: nil)
 //        if UIImagePickerController.isSourceTypeAvailable(.camera) {
 //           let cameraView = UIImagePickerController()
