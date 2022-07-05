@@ -7,11 +7,11 @@
 
 import Foundation
 import UIKit
-
 class SecondViewController: UIViewController {
     
     @IBOutlet weak var loginButton: UIButton!
     
+    @IBOutlet weak var password: UITextField!
     @IBOutlet weak var registerButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,4 +27,5 @@ class SecondViewController: UIViewController {
     @IBAction func registerButtonTapped(_ sender: Any) {
         self.performSegue(withIdentifier: "registerSegue", sender: self)
     }
+    
 }
